@@ -155,12 +155,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     min-height: 100vh;
+    .left-header {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
   }
-  .header-content .left-header {
-    display: flex;
-    align-items: center;
-    position: relative;
-  }
+  
   .header-content .left-header .h-shape {
     transition: all 0.4s ease-in-out;
     width: 65%;
