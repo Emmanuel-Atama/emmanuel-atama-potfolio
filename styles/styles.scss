@@ -632,6 +632,13 @@
   .contact-content-con .right-contact .submit-btn {
     display: flex;
     justify-content: flex-start;
+    padding-top: 1rem;
+  }
+  .contact-content-con .right-contact .submit-btn:hover {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    color: green;
   }
   
   /*Independed components*/
